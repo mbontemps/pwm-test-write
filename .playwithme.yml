@@ -1,0 +1,4 @@
+steps:
+    - write "hello" to "/tmp/pwm-hello"
+    - write @File('templates/file') to "/tmp/pwm-hello-file"
+    - write @Property('app.welcome') to "/tmp/pwm-hello-property"
